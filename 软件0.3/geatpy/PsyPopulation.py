@@ -290,4 +290,4 @@ PsyPopulation : class - 多染色体种群类(Popysomy Population)
             np.savetxt(dirName + '/CV.csv', self.CV, delimiter=',')
         if self.Phen is not None:
             np.savetxt(dirName + '/Phen.csv', self.Phen, delimiter=',')
-        print('种群信息导出完毕。')
+        # print('种群信息导出完毕。')
